@@ -1,0 +1,93 @@
+
+body {
+    margin: 0;
+    color: #fff;
+}
+
+.enter-numbers {
+    background: #6943FF;
+    height: 38vh;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.enter-numbers h1 {
+   font-weight: 900;
+   font-size: 36px;
+   padding-top: 10px;
+   margin-top: 0;
+}
+
+.enter-numbers input {
+   font-weight: 500;
+   font-size: 87px;
+   background: #6943FF;
+   color: #fff;
+   padding: 0 8px;
+   border: #B295FF solid 3px;
+   border-radius: 5px;
+   width: 10%;
+   height: 30%;
+   text-align: center;
+   
+}
+
+input:focus {
+    outline-color: #fff;
+}
+
+
+
+.enter-numbers button {
+    color: #3D3D3D;
+    background: #fff;
+    border-style: none;
+    border-radius: 2px;
+    font-size: 25px;
+    width: 180px;
+    height: 18%;
+    margin-top: 25px;
+}
+
+.units {
+    background: #1F2937;
+    width: 100%;
+    height: 63vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+
+.units div {
+    width: 90%;
+    height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.units h3 {
+    font-size: 31px;
+    font-weight: 800;
+    letter-spacing: 0.9px;
+    color: #CCC1FF;
+    margin: 0 0 5px 0;
+}
+
+.units p {
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 5px 0 0 0;
+}
+
+.units-color {
+    background: #273549;
+}
